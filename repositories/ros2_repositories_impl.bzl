@@ -117,9 +117,9 @@ def ros2_repositories_impl():
         http_archive,
         name = "ros2_libstatistics_collector",
         build_file = "@com_github_mvukov_rules_ros2//repositories:libstatistics_collector.BUILD.bazel",
-        sha256 = "12e9e52e2b342e471a31ad41db18e72795ac2b0faf56a54adcb74a24de630fa3",
-        strip_prefix = "libstatistics_collector-1.3.1",
-        url = "https://github.com/ros-tooling/libstatistics_collector/archive/refs/tags/1.3.1.tar.gz",
+        sha256 = "eef7def0465c5578a45b1a85fd6062c4e516e54e6de39e0af098e1fc544f8d98",
+        strip_prefix = "libstatistics_collector-1.3.2",
+        url = "https://github.com/ros-tooling/libstatistics_collector/archive/refs/tags/1.3.2.tar.gz",
     )
 
     maybe(
